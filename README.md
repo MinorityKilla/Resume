@@ -12,7 +12,7 @@
 
 ### Сайт-резюме: 
 
-[![Посмотреть интерактивное резюме]([https://img.shields.io/badge/🚀_Посмотреть_интерактивное_резюме-Open_Resume-blue?style=for-the-badge&logo=github)](https://minoritykilla.github.io/Resume/Resume/](https://github.com/MinorityKilla/Resume/commit/a93923ca7f6092ef18ccbca5ffa46e0e5950d36f)
+[![Открыть резюме](https://img.shields.io/badge/📄_ОТКРЫТЬ_РЕЗЮМЕ-00AA00?style=for-the-badge&logo=github&logoColor=white)](https://minoritykilla.github.io/Resume/Resume/)
 ---
 
 ## Опыт и навыки
