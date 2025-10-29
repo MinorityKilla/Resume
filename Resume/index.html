@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Резюме - Зеленин Павел</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main-screen" class="container">
+        <div class="text-container">
+            <h1>Зеленин Павел</h1>
+            <p>Backend Программист-разработчик</p>
+            <h2>Контактные данные:</h2>
+            <h3>+7(901)387-92-50</h3>
+            <h3>pavelzel1007@gmail.com</h3>
+            <h2>Нажмите на фото</h2>
+        </div>
+        <div class="main-button">
+            <img src="images/resume.jpg" alt="Фото профиля" onclick="showScreen(1)">
+        </div>
+    </div>
+
+   
+    <div class="screen photo-container" id="screen-1">
+        <div class="content-wrapper">
+            <div class="image-section">
+                <div class="photo-rectangle">
+                    <img src="images/IP.jpg" alt="Фото 1">
+                </div>
+            </div>
+            <div class="text-section">
+                <div class="text-content">
+                    <h3>Опыт и навыки</h3>
+                    <p>Я начинающий Java-разработчик с прочной базовой подготовкой. Владею Core Java, включая ООП, коллекции и многопоточность. Обладаю базовыми навыками Front-end-разработки и практическим опытом работы с Git для контроля версий в учебных проектах. Увлечён программированием, стремлюсь постоянно развиваться и осваивать новые технологии. Обладаю хорошими коммуникативными навыками, легко встраиваюсь в команду и быстро погружаюсь в суть задач, что позволяет достигать результатов в кратчайшие сроки!</p>
+                </div>
+            </div>
+        </div>
+        <div class="navigation">
+            <button class="nav-button prev-button" onclick="showScreen(0)">Назад</button>
+            <button class="nav-button next-button" onclick="showScreen(2)">Далее</button>
+        </div>
+    </div>
+
+    
+    <div class="screen photo-container" id="screen-2">
+        <div class="content-wrapper">
+            <div class="image-section">
+                <div class="double-photos">
+                    <div class="photo-rectangle">
+                        <img src="images/Gamecraft2.0.jpg" alt="Проект 1">
+                    </div>
+                    <div class="photo-rectangle">
+                        <img src="images/TvoiHod5.jpg" alt="Проект 2">
+                    </div>
+                </div>
+            </div>
+            <div class="text-section">
+                <div class="text-content">
+                    <h3>Проекты</h3>
+                    <p>В мой опыт входят: разработка различных консольных механик на Java, участие в учебных проектах и победа в межколледжном турнире Gamecraft 2.0 (1 место). Также имею опыт работы с системами контроля версий Git и GitHub, а также базовое понимание принципов работы баз данных, в частности PostgreSQL</p>
+                    <div class="project-highlights">
+                        <div class="highlight-item">
+                            <strong>Gamecraft 2.0</strong> - 1 место в турнире
+                        </div>
+                        <div class="highlight-item">
+                            <strong>Консольные приложения</strong> - разработка различных механик
+                        </div>
+                        <div class="highlight-item">
+                            <strong>Git & GitHub</strong> - контроль версий в проектах
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navigation">
+            <button class="nav-button prev-button" onclick="showScreen(1)">Назад</button>
+            <button class="nav-button next-button" onclick="showScreen(3)">Далее</button>
+        </div>
+    </div>
+
+
+    <div class="screen photo-container" id="screen-3">
+        <div class="content-wrapper">
+            <div class="image-section">
+                <div class="photo-horizontal">
+                    <img src="images/netology.jpg" alt="Фото образования">
+                </div>
+            </div>
+            <div class="text-section">
+                <div class="text-content">
+                    <h3>Образование</h3>
+                    <p>В настоящее время обучаюсь в колледже на 3 курсе. Дополнительно прохожу платное обучение по программе «Java-разработчик», по окончании которого получу диплом и практические навыки, которые стремлюсь применить в реальных проектах. Параллельно постоянно развиваю как профессиональные (CodeWars), так и личностные качества (Чтение книг, игра в шахматы).</p>
+                    <div class="education-details">
+                        <div class="education-item">
+                            <strong>Колледж</strong> - 3 курс, текущее обучение
+                        </div>
+                        <div class="education-item">
+                            <strong>Курсы "Java-разработчик"</strong> - в процессе обучения
+                        </div>
+                        <div class="education-item">
+                            <strong>Самообразование</strong> - постоянное развитие навыков
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navigation">
+            <button class="nav-button prev-button" onclick="showScreen(2)">Назад</button>
+            <button class="nav-button next-button" onclick="showScreen(4)">Далее</button>
+        </div>
+    </div>
+
+
+    <div class="screen photo-container" id="screen-4">
+        <div class="content-wrapper final-screen">
+            <div class="text-content final-text">
+                <h2>Контакты</h2>
+                <p>Email: pavelzel1007@gmail.com</p>
+                <p>GitHub: github.com/MinorityKilla</p>
+                <p>Телефон: +7 (901) 387-92-50</p>
+            </div>
+        </div>
+        <div class="navigation">
+            <button class="nav-button prev-button" onclick="showScreen(3)">Назад</button>
+            <button class="nav-button main-button" onclick="showScreen(0)">На главную</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
